@@ -1,9 +1,10 @@
 p{
-    font-size:30px;
+    font-size:20px;
 }
 
 div{
     background-color: yellowgreen;
+    color:lightslategrey;
     display: inline-block;
 }
 
@@ -13,4 +14,26 @@ div{
 
 #padding{
     padding: 30px;
+}
+
+#toppadding{
+    padding-top: 50px;
+}
+
+#rightpadding{
+    padding-right: 50px;
+}
+
+#bottompadding{
+    padding-bottom: 50px;
+}
+
+#leftpadding{
+    padding-left: 50px;
+}
+
+/*order is always top right bottom left*/
+
+#mixedpadding{
+    padding: 10px 40px 100px 30px;
 }
